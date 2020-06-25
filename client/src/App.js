@@ -2,7 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
-import Jumbotron from "./Jumbotron/Jumbotron"
+import Jumbotron from "./Jumbotron/Jumbotron";
+import SectionEvents from "./SectionEvents/SectionEvents";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
 
       {/* events section */}
       <section id="events">
-
+        <SectionEvents/>
       </section>
 
       {/* menue section */}
