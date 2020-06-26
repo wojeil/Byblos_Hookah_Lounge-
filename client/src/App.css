@@ -2,3 +2,10 @@
   background-color: rgb(2, 22, 22);
   padding: 2rem 3rem;
 }
+
+
+#events{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}

@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
-import SectionEvents from "./SectionEvents/SectionEvents";
+import Carousel from "./Carousel/Carousel";
 
 function App() {
   return (
@@ -16,11 +16,11 @@ function App() {
 
       {/* events section */}
       <section id="events">
-        <SectionEvents/>
+        <Carousel/>
       </section>
 
       {/* menue section */}
-      <section id="menue">
+      <section id="menu">
 
       </section>
 
