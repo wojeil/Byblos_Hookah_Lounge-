@@ -1,6 +1,6 @@
 import React from "react";
 import "./Carousel.css";
-// import Card from "../Card/Card";
+
 
 
 function Carousel() {

@@ -1,18 +1,23 @@
-// import React from "react";
-// import "./Card.css";
+import React from "react";
+import "./Card.css";
+import fruitBowls from "../util/fruitBowls";
 
-// function Card (){
+function Card (){
 
-//     return(
-//         <div className="carousel-item active">
-//         <div className="card">
-//             <div className="card-body">
-//                 <img src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/shutterstock_199419065.jpg" alt="party pic"/>
-//                 <p id="test">it passes</p>
-//             </div>
-//         </div>
-//     </div>
-//     )
-// }
+    return(
+       
+        <div className="card menu-card">
+            <div className="card-header card-title"><h2> Hookah Menue</h2></div>
+            <div className="card-body">
+                <h4>Fruit Bowls</h4>
+                <hr/>
+                <ul className="pinapple-fb"></ul>
+                <ul className="orange-fb"></ul>
 
-// export default Card;
+             
+            </div>
+        </div>
+    )
+}
+
+export default Card;
