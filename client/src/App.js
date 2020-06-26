@@ -28,10 +28,10 @@ function App() {
           <CardHookah/>
           </div>
           <div className="col-sm-4 col-md-6">
-         
+          <CardHookah/>
           </div>
           <div className="col-sm-4 col-md-6">
-          
+          <CardHookah/>
           </div>
         </div>
     
