@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Orange Fumari",
+        "price": "$21.99"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Orange Srarbuzz",
+        "price": "$19.99"
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Orange Al Fakher",
+        "price": "$17.99"
+        
+    }
+    
+]

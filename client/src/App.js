@@ -4,7 +4,8 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
 import Carousel from "./Carousel/Carousel";
-import Card from "./Card/Card";
+import CardHookah from "./Card/Card";
+
 
 function App() {
   return (
@@ -24,13 +25,13 @@ function App() {
       <section id="menu">
         <div className="row">
           <div className="col-sm-4 col-md-6">
-          <Card/>
+          <CardHookah/>
           </div>
           <div className="col-sm-4 col-md-6">
-          <Card/>
+         
           </div>
           <div className="col-sm-4 col-md-6">
-          <Card/>
+          
           </div>
         </div>
     
