@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "White Zinfandel",
+        "price": ""
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Cabernet",
+        "price": ""
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Pinto Noir",
+        "price": ""
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "Merlot",
+        "price": ""
+        
+    }
+]

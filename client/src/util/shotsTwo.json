@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Tequila",
+        "price": "$4.00"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Vodka",
+        "price": "$4.00"
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Rum",
+        "price": "$4.00"
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "Whiskey",
+        "price": "$4.00"
+        
+    }
+]

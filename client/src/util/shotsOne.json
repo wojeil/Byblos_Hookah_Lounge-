@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Lemon Drop",
+        "price": "$5.00"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Fireball",
+        "price": "$5.00"
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Green Tea",
+        "price": "$5.00"
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "Doudou",
+        "price": "$5.00"
+        
+    }
+]

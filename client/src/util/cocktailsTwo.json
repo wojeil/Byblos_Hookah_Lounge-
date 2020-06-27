@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Sex On The Beach",
+        "price": "$6.00"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Peach Crush",
+        "price": "$6.00"
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Pina Colada",
+        "price": "$6.00"
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "Strawberry Daiquiri",
+        "price": "$6.00"
+        
+    },
+    {
+        "id": 5,
+        "index": 4,
+        "name": "Hillbilly Lemonade",
+        "price": "$6.00"
+        
+    },
+    {
+        "id": 6,
+        "index": 5,
+        "name": "Tequila Sunrise",
+        "price": "$6.00"
+        
+    }
+   
+]

@@ -40,7 +40,7 @@ class CardHookah extends Component {
             <div className="card menu-card">
                 <div className="card-header card-title"><h2><strong> Hookah Menu</strong></h2></div>
                 <div className="card-body">
-                    <h4><strong>Fruit Bowls</strong></h4>
+                    <h4 className="menu-h4"><strong>Fruit Bowls</strong></h4>
                     <hr />
                     <div className="row">
                         <div className="col-sm-6"><ul className="pinapple-fb">
@@ -55,7 +55,7 @@ class CardHookah extends Component {
                         </ul></div>
                     </div>
                     <br />
-                    <h4><strong>Al Fakher</strong> $14.99 <strong>Refill</strong> $6</h4>
+                    <h4 className="menu-h4"><strong>Al Fakher</strong> $14.99 <strong>Refill</strong> $6</h4>
                     <hr />
                     <div className="row">
                         <div className="col-sm-4"><ul className="pinapple-fb">
@@ -78,7 +78,7 @@ class CardHookah extends Component {
                         </div>
                     </div>
                     <br />
-                    <h4><strong>Starbuzz</strong> $16.99 <strong>Refill</strong> $7</h4>
+                    <h4 className="menu-h4"><strong>Starbuzz</strong> $16.99 <strong>Refill</strong> $7</h4>
                     <hr />
                     <div className="row">
                         <div className="col-sm-4"><ul className="pinapple-fb">
@@ -101,7 +101,7 @@ class CardHookah extends Component {
                         </div>
                     </div>
                     <br />
-                    <h4><strong>Fumari</strong> $18.99 <strong>Refill</strong> $9</h4>
+                    <h4 className="menu-h4"><strong>Fumari</strong> $18.99 <strong>Refill</strong> $9</h4>
                     <hr />
                     <div className="row">
                         <div className="col-sm-4"><ul className="pinapple-fb">
