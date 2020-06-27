@@ -5,8 +5,17 @@
 .navbar-brand {
     font-family: 'Rakkas', cursive;
     font-size: 2rem;
+    color: rgb(0, 0, 0);
+    
+}
+.navbar-dark .navbar-brand{
+    color: rgb(0, 0, 0);
 }
 
 .nav-link{
     font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
 }
