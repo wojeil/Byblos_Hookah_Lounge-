@@ -43,16 +43,23 @@ class CardHookah extends Component {
                     <h4 className="menu-h4"><strong>Fruit Bowls</strong></h4>
                     <hr />
                     <div className="row">
-                        <div className="col-sm-6"><ul className="pinapple-fb">
+                        <div className="col-sm-3"> 
+                        <img className="pinapple-hookah-img" src="https://fastly.4sqi.net/img/general/600x600/545281212_mwRyIUG62ar6zMY1Z98NehVbDJ3Am6SeWdla5xz792A.jpg" alt="pineapple hookah"/></div>
+                    
+                        <div className="col-sm-3"><ul className="pinapple-fb">
                             {this.state.fruitBowls.map(fruitBowl =>
                                 <Li key={fruitBowl.id} name={fruitBowl.name} price={fruitBowl.price} />
                             )}
                         </ul></div>
-                        <div className="col-sm-6"> <ul className="orange-fb">
+                        <div className="col-sm-3"> <ul className="orange-fb">
                             {this.state.orangeFruitBowls.map(orangeFruitBowl =>
                                 <Li key={orangeFruitBowl.id} name={orangeFruitBowl.name} price={orangeFruitBowl.price} />
                             )}
-                        </ul></div>
+                        </ul>
+                        </div>
+                        <div className="col-sm-3">
+                        <img className="pinapple-hookah-img" src="https://fastly.4sqi.net/img/general/width960/545281212_Hbm_hCEMH8MQInYd2BzaWsApcgAHlniT3JY2oO0MVVU.jpg" alt="hookahs"/>
+                        </div>
                     </div>
                     <br />
                     <h4 className="menu-h4"><strong>Al Fakher</strong> $14.99 <strong>Refill</strong> $6</h4>

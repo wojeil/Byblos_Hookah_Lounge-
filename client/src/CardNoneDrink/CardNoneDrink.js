@@ -32,129 +32,31 @@ class CardNoneDrink extends Component {
                                     <Li key={hotTea.id} name={hotTea.name} price={hotTea.price} />
                                 )}
                             </ul></div>
-                        <div className="col-sm-4 drink-title">   
-                        <ul className="tea">
-                            {this.state.coffees.map(coffee =>
-                                <Li key={coffee.id} name={coffee.name} price={coffee.price} />
-                            )}
-                        </ul></div>
+                        <div className="col-sm-4 drink-title">
+                            <ul className="tea">
+                                {this.state.coffees.map(coffee =>
+                                    <Li key={coffee.id} name={coffee.name} price={coffee.price} />
+                                )}
+                            </ul></div>
                         <div className="col-sm-4 drink-title"> <ul className="tea">
                             {this.state.beverages.map(beverage =>
                                 <Li key={beverage.id} name={beverage.name} price={beverage.price} />
                             )}
                         </ul></div>
                     </div>
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <img className="nonalch-bev" src="https://fastly.4sqi.net/img/general/width960/545281212_0qJIDwXUIubdbiRr9JDkBkrB4ASVcJ3ADmXjAgcyK8o.jpg" alt="UCF Discount" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img className="nonalch-bev" src="https://fastly.4sqi.net/img/general/width960/545281212_obEFiLCUqnr6DJGTI3oDcXr0E2mw_d25pQUqeB_MymQ.jpg" alt="turkish coffee" />
+                        </div>
+                        <div className="col-sm-4">
+                            <img className="nonalch-bev" src="https://fastly.4sqi.net/img/general/width960/62587005_uDI7hnr8zVmFutZ5CX3cFBK_bfalrocn7pDcdO7eqkk.jpg" alt="chilling" />
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            //  <div className="row">
-            //     <div className="col-sm-6"><ul className="pinapple-fb">
-            //         {this.state.fruitBowls.map(fruitBowl =>
-            //             <Li key={fruitBowl.id} name={fruitBowl.name} price={fruitBowl.price} />
-            //         )}
-            //     </ul></div>
-            //     <div className="col-sm-6"> <ul className="orange-fb">
-            //         {this.state.orangeFruitBowls.map(orangeFruitBowl =>
-            //             <Li key={orangeFruitBowl.id} name={orangeFruitBowl.name} price={orangeFruitBowl.price} />
-            //         )}
-            //     </ul></div>
-            // </div>
-            // <br />
-            // <h4><strong>Al Fakher</strong> $14.99 <strong>Refill</strong> $6</h4>
-            // <hr />
-            // <div className="row">
-            //     <div className="col-sm-4"><ul className="pinapple-fb">
-            //         {this.state.alFakherOne.map(alFakherOnes =>
-            //             <Li key={alFakherOnes.id} name={alFakherOnes.name} price={alFakherOnes.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="orange-fb">
-            //         {this.state.alFakherTwo.map(alFakherTwos =>
-            //             <Li key={alFakherTwos.id} name={alFakherTwos.name} price={alFakherTwos.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="orange-fb">
-            //         {this.state.alFakherThree.map(alFakherThrees =>
-            //             <Li key={alFakherThrees.id} name={alFakherThrees.name} price={alFakherThrees.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            // </div>
-            // <br />
-            // <h4><strong>Starbuzz</strong> $16.99 <strong>Refill</strong> $7</h4>
-            // <hr />
-            // <div className="row">
-            //     <div className="col-sm-4"><ul className="pinapple-fb">
-            //         {this.state.starBuzzOne.map(starBuzzOnes =>
-            //             <Li key={starBuzzOnes.id} name={starBuzzOnes.name} price={starBuzzOnes.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="orange-fb">
-            //         {this.state.starBuzzTwo.map(starBuzzTwos =>
-            //             <Li key={starBuzzTwos.id} name={starBuzzTwos.name} price={starBuzzTwos.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="orange-fb">
-            //         {this.state.starBuzzThree.map(starBuzzThrees =>
-            //             <Li key={starBuzzThrees.id} name={starBuzzThrees.name} price={starBuzzThrees.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            // </div>
-            // <br />
-            // <h4><strong>Fumari</strong> $18.99 <strong>Refill</strong> $9</h4>
-            // <hr />
-            // <div className="row">
-            //     <div className="col-sm-4"><ul className="pinapple-fb">
-            //         {this.state.fumariOne.map(fumariOnes =>
-            //             <Li key={fumariOnes.id} name={fumariOnes.name} price={fumariOnes.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="fumariTwo">
-            //         {this.state.fumariTwo.map(fumariTwos =>
-            //             <Li key={fumariTwos.id} name={fumariTwos.name} price={fumariTwos.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="fumariThree">
-            //         {this.state.fumariThree.map(fumariThrees =>
-            //             <Li key={fumariThrees.id} name={fumariThrees.name} price={fumariThrees.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            // </div>
-            // <br />
-            // <h4 className="extra"><strong>Extras</strong> </h4>
-            // <hr />
-            // <div className="row">
-            //     <div className="col-sm-4"><ul className="extraOne">
-            //         {this.state.extraOne.map(extraOnes =>
-            //             <Li key={extraOnes.id} name={extraOnes.name} price={extraOnes.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="extraTwo">
-            //         {this.state.extraTwo.map(extraTwos =>
-            //             <Li key={extraTwos.id} name={extraTwos.name} price={extraTwos.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            //     <div className="col-sm-4"> <ul className="extraThree">
-            //         {this.state.extraThree.map(extraThrees =>
-            //             <Li key={extraThrees.id} name={extraThrees.name} price={extraThrees.price} />
-            //         )}
-            //     </ul>
-            //     </div>
-            // </div>
-
-
-
-            // }
 
         )
     }

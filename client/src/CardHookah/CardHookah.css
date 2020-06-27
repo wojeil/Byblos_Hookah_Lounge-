@@ -17,3 +17,10 @@
 .extra{
     text-align: center;
 }
+
+/* images */
+
+.pinapple-hookah-img{
+    width: 80%;
+    border-radius: 30px;
+}
