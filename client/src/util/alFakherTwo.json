@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Strawberry Cream",
+        "price": ""
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Kiwi",
+        "price": ""
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Coconut",
+        "price": ""
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "Melon",
+        "price": ""
+        
+    },
+    {
+        "id": 5,
+        "index": 4,
+        "name": "Orange",
+        "price": ""
+        
+    },
+    {
+        "id": 6,
+        "index": 5,
+        "name": "Blueberry",
+        "price": ""
+        
+    },
+    {
+        "id": 7,
+        "index": 6,
+        "name": "Lemon",
+        "price": ""
+        
+    },
+    {
+        "id": 8,
+        "index": 7,
+        "name": "Grape",
+        "price": ""
+        
+    },
+    {
+        "id": 9,
+        "index": 8,
+        "name": "Cherry",
+        "price": ""
+        
+    },
+    {
+        "id": 10,
+        "index": 9,
+        "name": "Mint Cream",
+        "price": ""
+        
+    }
+    
+]
