@@ -1,5 +1,6 @@
 import React from "react";
 import CardHookah from "../CardHookah/CardHookah";
+import CardNoneDrink from "../CardNoneDrink/CardNoneDrink";
 
 
 function CarouselMenu (){
@@ -17,7 +18,7 @@ function CarouselMenu (){
 
             </div>
             <div className="carousel-item">
-            <CardHookah/>
+            <CardNoneDrink/>
             </div>
             <a className="carousel-control-prev" href="#menu-carousel" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>

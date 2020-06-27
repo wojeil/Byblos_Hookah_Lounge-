@@ -9,7 +9,7 @@
     
 }
 .navbar-dark .navbar-brand{
-    color: rgb(0, 0, 0);
+    color: rgb(216, 183, 183);
 }
 
 .nav-link{
@@ -17,5 +17,5 @@
     color: rgb(0, 0, 0);
 }
 .navbar-dark .navbar-nav .nav-link{
-    color: rgb(0, 0, 0);
+    color: rgb(119, 90, 90);
 }

@@ -1,0 +1,19 @@
+.menu-card{
+    background-color: rgba(105, 56, 56, 0.781);
+    color: ivory;
+  
+}
+
+.card-title{
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.fumariTwo{
+    padding-top: 1rem;
+}
+
+.extra{
+    text-align: center;
+}

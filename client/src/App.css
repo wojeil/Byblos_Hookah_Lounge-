@@ -1,7 +1,7 @@
 #about{
   /* background-color: rgb(2, 22, 22); */
   padding: 2rem 3rem;
-  background-image: url(https://media.freestocktextures.com/cache/8d/d6/8dd6d3169ef23ef53991cbdd26b5cbfb.jpg);
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0799e23e-e613-4910-8b34-c0df5805cbb5/dany3e-d5b074ba-8be7-4a09-9303-4d5eb09e10a4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMDc5OWUyM2UtZTYxMy00OTEwLThiMzQtYzBkZjU4MDVjYmI1XC9kYW55M2UtZDViMDc0YmEtOGJlNy00YTA5LTkzMDMtNGQ1ZWIwOWUxMGE0LmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl19.fMLjgwUTStdwtc8YxAibqjEWbQM2pl2GecsemFHnmR4);
   background-size: cover;
   
 }
@@ -16,5 +16,6 @@
 
 #menu{
   padding: 2rem 3rem;
-  background-color: black;
+ background-image: url(https://media.freestocktextures.com/cache/5b/48/5b484d445dac474cb4d36b028a1c6029.jpg);
+ background-size: cover;
 }

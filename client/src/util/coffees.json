@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Starbucks Frappuccino",
+        "price": "$3.99"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Cappuccino",
+        "price": "$3.99"
+        
+    },
+    {
+        "id": 3,
+        "index": 2,
+        "name": "Nescafe",
+        "price": "$2.99"
+        
+    },
+    {
+        "id": 4,
+        "index": 3,
+        "name": "American Coffee",
+        "price": "$2.99"
+        
+    },
+    {
+        "id": 5,
+        "index": 4,
+        "name": "Hot Chocolate",
+        "price": "$3.99"
+        
+    },
+    {
+        "id": 6,
+        "index": 5,
+        "name": "Espresso",
+        "price": "Single $2.99 / Double $3.99"
+        
+    },
+    {
+        "id": 7,
+        "index": 6,
+        "name": "Cafe Latte",
+        "price": "$3.99"
+        
+    },
+    {
+        "id": 8,
+        "index": 7,
+        "name": "Turkish Coffee",
+        "price": "Sm $3.99 / Md $5.99 / Lg $7.99"
+        
+    }
+    
+]

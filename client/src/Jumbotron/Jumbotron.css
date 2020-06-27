@@ -1,14 +1,14 @@
 h1{
     font-family: 'Montserrat-Black', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(119, 90, 90);
     
 }
 .jumboH1{
     font-size: 3.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(119, 90, 90);
 }
 .lead{
     font-family: 'Montserrat-', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(119, 90, 90);
     font-size: 1.5rem;
 }
