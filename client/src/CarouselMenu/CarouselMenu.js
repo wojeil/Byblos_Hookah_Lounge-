@@ -20,10 +20,10 @@ function CarouselMenu (){
 
             </div>
             <div className="carousel-item">
-            <CardNoneDrink/>
+            <CardADrink/>
             </div>
             <div className="carousel-item">
-            <CardADrink/>
+            <CardNoneDrink/> 
             </div>
             <a className="carousel-control-prev" href="#menu-carousel" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -33,7 +33,7 @@ class CardADrink extends Component {
         return (
 
             <div className="card menu-card">
-                <div className="card-header card-title"><h2><strong> Alchoholic Drinks</strong></h2></div>
+                <div className="card-header card-title"><h2><strong>Alcoholic Drinks</strong></h2></div>
                 <div className="card-body">
                     <h4 className="menu-h4"><strong>Cocktails</strong></h4>
                     <hr />
