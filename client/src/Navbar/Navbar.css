@@ -4,5 +4,9 @@
 
 .navbar-brand {
     font-family: 'Rakkas', cursive;
+    font-size: 2rem;
 }
 
+.nav-link{
+    font-size: 1rem;
+}

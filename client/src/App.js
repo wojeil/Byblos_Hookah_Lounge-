@@ -4,7 +4,8 @@ import "./App.css";
 import Navbar from "./Navbar/Navbar";
 import Jumbotron from "./Jumbotron/Jumbotron";
 import Carousel from "./Carousel/Carousel";
-import CardHookah from "./Card/Card";
+import CarouselMenu from "./CarouselMenu/CarouselMenu";
+
 
 
 function App() {
@@ -23,17 +24,13 @@ function App() {
 
       {/* menue section */}
       <section id="menu">
+       
         <div className="row">
-          <div className="col-sm-4 col-md-6">
-          <CardHookah/>
-          </div>
-          <div className="col-sm-4 col-md-6">
-          <CardHookah/>
-          </div>
-          <div className="col-sm-4 col-md-6">
-          <CardHookah/>
-          </div>
-        </div>
+          <div className="col-sm-12">
+          <CarouselMenu/>
+           </div>
+         
+         </div>
     
       </section>
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Card.css";
+import "./CardHookah.css";
 import fruitBowls from "../util/fruitBowls.json";
 import orangeFruitBowls from "../util/orangeFruitBowls.json";
 import alFakherOne from "../util/alFakherOne.json";
