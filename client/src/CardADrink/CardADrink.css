@@ -21,10 +21,18 @@ h5{
     text-align: center;
 }
 
-img.alch-bev{
-    width: 50%;
+img.alchdrinks{
+    width: 55%;
     margin: 2rem !important;
     padding-top: 1rem;
     border-radius: 30px;
     
 } 
+
+img.partypic-alch{
+    width:100%;
+    margin: 1rem !important;
+    padding-top: 1rem;
+    border-radius: 30px;
+    
+}

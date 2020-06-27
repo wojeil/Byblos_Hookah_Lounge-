@@ -11,7 +11,8 @@ function Jumbotron() {
                
                 <h1 className="display-4 jumboH1">Open For Everyone.</h1>
                 <br/>
-                <p className="lead"> Visit our lux lounge, where hookah's are prepped with experience and care.</p>
+                <p className="lead"> Visit our lux lounge,</p>
+                <p className="lead"> Where hookah's are prepped with experience and care.</p>
             
         </div>
     );
