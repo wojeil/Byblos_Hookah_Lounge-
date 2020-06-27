@@ -8,6 +8,12 @@ import alFakherThree from "../util/alFakherThree.json";
 import starBuzzOne from "../util/starBuzzOne.json";
 import starBuzzTwo from "../util/starBuzzTwo.json";
 import starBuzzThree from "../util/starBuzzThree.json";
+import fumariOne from "../util/fumariOne.json";
+import fumariTwo from "../util/fumariTwo.json";
+import fumariThree from "../util/fumariThree.json";
+import extraOne from "../util/extraOne.json";
+import extraTwo from "../util/extraTwo.json";
+import extraThree from "../util/extraThree.json";
 import Li from "../Li/Li";
 
 
@@ -20,7 +26,13 @@ class CardHookah extends Component {
         alFakherThree,
         starBuzzOne,
         starBuzzTwo,
-        starBuzzThree
+        starBuzzThree,
+        fumariOne,
+        fumariTwo,
+        fumariThree,
+        extraOne,
+        extraTwo,
+        extraThree
     }
     render() {
         return (
@@ -84,6 +96,52 @@ class CardHookah extends Component {
                         <div className="col-sm-4"> <ul className="orange-fb">
                             {this.state.starBuzzThree.map(starBuzzThrees =>
                                 <Li key={starBuzzThrees.id} name={starBuzzThrees.name} price={starBuzzThrees.price} />
+                            )}
+                        </ul>
+                        </div>
+                    </div>
+                    <br />
+                    <h4><strong>Fumari</strong> $18.99 <strong>Refill</strong> $9</h4>
+                    <hr />
+                    <div className="row">
+                        <div className="col-sm-4"><ul className="pinapple-fb">
+                            {this.state.fumariOne.map(fumariOnes =>
+                                <Li key={fumariOnes.id} name={fumariOnes.name} price={fumariOnes.price} />
+                            )}
+                        </ul>
+                        </div>
+                        <div className="col-sm-4"> <ul className="fumariTwo">
+                            {this.state.fumariTwo.map(fumariTwos =>
+                                <Li key={fumariTwos.id} name={fumariTwos.name} price={fumariTwos.price} />
+                            )}
+                        </ul>
+                        </div>
+                        <div className="col-sm-4"> <ul className="fumariThree">
+                            {this.state.fumariThree.map(fumariThrees =>
+                                <Li key={fumariThrees.id} name={fumariThrees.name} price={fumariThrees.price} />
+                            )}
+                        </ul>
+                        </div>
+                    </div>
+                    <br />
+                    <h4 className="extra"><strong>Extras</strong> </h4>
+                    <hr />
+                    <div className="row">
+                        <div className="col-sm-4"><ul className="extraOne">
+                            {this.state.extraOne.map(extraOnes =>
+                                <Li key={extraOnes.id} name={extraOnes.name} price={extraOnes.price} />
+                            )}
+                        </ul>
+                        </div>
+                        <div className="col-sm-4"> <ul className="extraTwo">
+                            {this.state.extraTwo.map(extraTwos =>
+                                <Li key={extraTwos.id} name={extraTwos.name} price={extraTwos.price} />
+                            )}
+                        </ul>
+                        </div>
+                        <div className="col-sm-4"> <ul className="extraThree">
+                            {this.state.extraThree.map(extraThrees =>
+                                <Li key={extraThrees.id} name={extraThrees.name} price={extraThrees.price} />
                             )}
                         </ul>
                         </div>

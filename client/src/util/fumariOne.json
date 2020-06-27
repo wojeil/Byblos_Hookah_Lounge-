@@ -2,28 +2,21 @@
     {
         "id": 1,
         "index": 0,
-        "name": "Citrus Mint",
+        "name": "Blueberry Muffin",
         "price": ""
         
     },
     {
         "id": 2,
         "index": 1,
-        "name": "Sex On The Beach",
+        "name": "Red Gummi Bear",
         "price": ""
         
     },
     {
         "id": 3,
         "index": 2,
-        "name": "Pina Colada",
-        "price": ""
-        
-    },
-    {
-        "id": 4,
-        "index": 3,
-        "name": "Pirate's Cave",
+        "name": "White Gummi Bear",
         "price": ""
         
     }

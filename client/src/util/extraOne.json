@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Flavored Base",
+        "price": "$4.99"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Ice Hose",
+        "price": "$4.99"
+        
+    }
+    
+    
+]

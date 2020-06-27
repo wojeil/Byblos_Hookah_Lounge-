@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "index": 0,
+        "name": "Natural Coals",
+        "price": "$1.00"
+        
+    },
+    {
+        "id": 2,
+        "index": 1,
+        "name": "Disposable Hose",
+        "price": "$1.99"
+        
+    }
+    
+    
+]
