@@ -19,7 +19,19 @@ function App() {
 
       {/* events section */}
       <section id="events">
-        <Carousel/>
+        <div className="row">
+          <div className="col-sm-12">
+            <h4 className="event-page-title"><em>Featured Events</em></h4>
+          </div>
+          </div>
+          <div className="row">
+          <div className="col-sm-12">
+          <Carousel/>
+          </div>
+          </div>
+          
+        
+        
       </section>
 
       {/* menue section */}
@@ -29,6 +41,7 @@ function App() {
           <div className="col-sm-12">
           <CarouselMenu/>
            </div>
+          
          
          </div>
     
