@@ -14,7 +14,7 @@
 }
 .image-container{
   position: relative;
-  max-width: 600px; /* Maximum width */
+  max-width: 400px; /* Maximum width */
   margin: 0 auto; /* Center it */
 }
 .content{

@@ -11,13 +11,18 @@
  #events{
   
   text-align: center;
-  background-color: rgb(3, 3, 3);
-  color: rgb(0, 0, 0);
+  background-color: rgb(1, 1, 2);
+  color: rgb(17, 18, 20);
 } 
+
+em{
+  color: rgb(255, 174, 0);
+}
 
 #menu{
   padding: 2rem 3rem;
- background-image: url(https://media.freestocktextures.com/cache/5b/48/5b484d445dac474cb4d36b028a1c6029.jpg);
+  background-color: rgb(1, 1, 2);
+ /* background-image: url(https://media.freestocktextures.com/cache/5b/48/5b484d445dac474cb4d36b028a1c6029.jpg); */
  background-size: cover;
 }
 
@@ -28,4 +33,25 @@
 .event-page-title{
   padding-top: 3rem;
   color: aliceblue;
+}
+
+#contact{
+  background-image: url(https://image.freepik.com/free-photo/smoke-black-background_49043-499.jpg);
+   background-size: cover;
+  padding: 8rem 4rem 4rem;
+  background-color: rgb(3, 3, 3);
+}
+
+.wrapper{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/72599815-3d21-4b7a-bb41-28c1208d8719/d1origc-b222fb6c-bc1d-40ff-b10d-4afe17e69b31.jpg/v1/fill/w_800,h_537,q_75,strp/framed_smoke_by_firesign24_7_d1origc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01MzciLCJwYXRoIjoiXC9mXC83MjU5OTgxNS0zZDIxLTRiN2EtYmI0MS0yOGMxMjA4ZDg3MTlcL2Qxb3JpZ2MtYjIyMmZiNmMtYmMxZC00MGZmLWIxMGQtNGFmZTE3ZTY5YjMxLmpwZyIsIndpZHRoIjoiPD04MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.4oHi0R24J4474ouZC44iGWDshwMouC7sm5yFCvtQzA0);
+  border-radius: 2%;
+}
+
+
+
+.iframe{
+  margin: 8rem auto auto 3rem;
+  border-radius: 10%;
+  width: 60%;
+  height:60%
 }
