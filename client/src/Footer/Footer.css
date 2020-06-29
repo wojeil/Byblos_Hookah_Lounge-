@@ -1,0 +1,28 @@
+.foots{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 182, 73);
+    
+  
+  }
+
+
+.foots:hover{
+    color: rgb(146, 60, 60);
+}
+  footer {
+ 
+    text-align: center;
+    padding-top: rem;
+    margin: 9rem auto 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 182, 73);
+
+    
+    
+}
+
+.footer-text{
+    margin-bottom: 0;
+}

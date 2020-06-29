@@ -32,13 +32,13 @@ em{
 
 .event-page-title{
   padding-top: 3rem;
-  color: aliceblue;
+  
 }
 
 #contact{
   background-image: url(https://image.freepik.com/free-photo/smoke-black-background_49043-499.jpg);
    background-size: cover;
-  padding: 8rem 4rem 4rem;
+  padding: 8rem 4rem 0.5rem;
   background-color: rgb(3, 3, 3);
 }
 
