@@ -64,3 +64,11 @@ em{
   width: 60%;
   height:60%
 }
+
+
+.hours-wrapper{
+  margin: 5.5rem auto 0;
+}
+.hours{
+  color: rgb(255, 174, 0);
+}

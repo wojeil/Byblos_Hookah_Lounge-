@@ -60,6 +60,10 @@ function App() {
             
           </div>
           <div className="col-sm-2">
+        <div className="hours-wrapper">
+        <h3 className="hours">Hours of Operation:</h3>
+         <h4 className="hours">Monday-Sunday 5:00 pm- 2:00 am</h4>
+        </div>
          
           </div>
           <div id="smoke-pic"className="col-sm-4"> <iframe  className="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.15722450949!2d-81.20954528491761!3d28.62504958242065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e7690ff1fde2a1%3A0x10305d8eddf8afdc!2sByblos%20Hookah%20Lounge!5e0!3m2!1sen!2sus!4v1593407190972!5m2!1sen!2sus"  aria-hidden="false"/></div>
