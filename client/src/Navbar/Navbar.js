@@ -6,7 +6,7 @@ function Navbar() {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark">
-            <a className="navbar-brand brand"  target="_blank" href="https://www.facebook.com/bybloshookah/"><strong>Byblos Hookah Lounge</strong></a>
+            <a className="navbar-brand brand"  target="_blank" href="https://www.facebook.com/bybloshookah/"><em>Byblos Hookah Lounge</em></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
