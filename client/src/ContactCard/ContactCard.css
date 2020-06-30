@@ -20,3 +20,8 @@ div.card.contact-card{
     font-size: 110%;
     color: rgb(255, 174, 0);
 }
+
+.atag:hover{
+    color: rgb(146, 60, 60);
+    text-decoration: none;
+}

@@ -17,14 +17,13 @@ function App() {
       <section id="about">
       <Navbar/>
       <Jumbotron/>
-      <hr/>
+     
       </section>
-      
+     
       {/* events section */}
       <section id="events">
         <div className="row">
           <div className="col-sm-12">
-          <hr/>
             <h4 className="event-page-title"><em>Featured Events</em></h4>
           </div>
           </div>
@@ -37,7 +36,7 @@ function App() {
         
         
       </section>
-
+      <hr className="hr"/>
       {/* menue section */}
       <section id="menu">
        
@@ -50,7 +49,7 @@ function App() {
          </div>
     
       </section>
-
+      <hr className="hr"/>
       {/* contact section */}
       <section id="contact">
         <div className="row">

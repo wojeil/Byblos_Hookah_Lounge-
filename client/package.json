@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "byblos-hookah-lounge",
   "version": "0.1.0",
-  "description": "Mern Demo",
+  "description": "byblos-hookah-lounge",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {

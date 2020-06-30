@@ -13,10 +13,10 @@ function ContactCard (){
 
             <div className="card-body">
              
-                <h4 className="atag" id="bottom">Facebook <a className="atag" href="https://www.linkedin.com/in/wadih-ojeil/" target="_blank" rel="noopener noreferrer"> <i className="fab fa-facebook-square"></i></a> </h4><br/>
-                <h4 className="atag">Instagram<a className="atag" href="https://github.com/wojeil" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a></h4><br/>
+                <h4 className="atag">Facebook: <a className="atag" href="https://www.facebook.com/bybloshookah/" target="_blank" rel="noopener noreferrer"> bybloshookah <i className="fab fa-facebook-square"></i></a> </h4><br/>
+                <h4 className="atag">Instagram: <a className="atag" href="https://www.instagram.com/bybloshookahloungeucf/" target="_blank" rel="noopener noreferrer"> bybloshookahloungeucf <i className="fab fa-instagram"></i></a></h4><br/>
                 <h4 className="atag">Email:<a className="atag" href= "mailto: wadih.ojeil@gmail.com"> wadih.ojeil@gmail.com</a></h4><br/>
-                <h4 className="atag">Phone Number: +1(407)463-6548</h4><br/>
+                <h4 className="atag">Phone Number: +1(407) 542-1188</h4><br/>
                
                                         
             </div>
