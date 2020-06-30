@@ -19,8 +19,8 @@ function Carousel() {
                     <div className="image-container">
                         <img className="event-image" src={omar} alt="party pic" />
                         <div className="content">
-                            <h1>Heading</h1>
-                            <p>Lorem ipsum..</p>
+                            <h1>Early Study Sesh</h1>
+                            <p>Come early and experience a quiet study environment with your peers</p>
                         </div>
                     </div>
 
@@ -29,10 +29,23 @@ function Carousel() {
                     <div className="image-container">
                         <img className="event-image" src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/shutterstock_199419065.jpg" alt="party pic" />
                         <div className="content">
-                            <h1>Heading</h1>
-                            <p>Lorem ipsum..</p>
+                            <h1>Do you watch Soccer?</h1>
+                            <p>We have access and keep you posted with the Champion's League and more!</p>
                         </div>
                     </div>
+
+                
+                </div>
+                <div className="carousel-item">
+                    <div className="image-container">
+                        <img className="event-image" src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/shutterstock_199419065.jpg" alt="party pic" />
+                        <div className="content">
+                            <h1>Weekends</h1>
+                            <p>First come First Serve</p>
+                        </div>
+                    </div>
+
+                
                 </div>
             </div>
         </div>
