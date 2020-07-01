@@ -15,6 +15,8 @@ import extraOne from "../util/extraOne.json";
 import extraTwo from "../util/extraTwo.json";
 import extraThree from "../util/extraThree.json";
 import Li from "../Li/Li";
+import hookahImage from "../images/hookah-image.JPG";
+import hookahMenu from "../images/Hookah-menu.pdf";
 
 
 class CardHookah extends Component {
@@ -40,6 +42,7 @@ class CardHookah extends Component {
             <div className="card menu-card">
                 <div className="card-header card-title"><h2><strong> Hookah Menu</strong></h2></div>
                 <div className="card-body">
+                <a href={hookahMenu} target="_blank" rel="noopener noreferrer"> <img className="menu-image" src={hookahImage} alt="menu"/> </a>
                     <h4 className="menu-h4"><strong>Fruit Bowls</strong></h4>
                     <hr />
                     <div className="row">

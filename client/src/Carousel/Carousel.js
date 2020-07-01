@@ -1,9 +1,9 @@
 import React from "react";
 import "./Carousel.css";
-import omar from "../images/omar.jpg";
 import coffeeEvent from "../images/coffee-event.jpeg";
 import specials from "../images/specials.jpg";
 import soccerEvent from "../images/soccer-event.png";
+import partyEvent from "../images/party-event-2.jpg";
 
 
 
@@ -42,7 +42,7 @@ function Carousel() {
                 </div>
                 <div className="carousel-item">
                     <div className="image-container">
-                        <img className="event-image" src="https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/shutterstock_199419065.jpg" alt="party pic" />
+                        <img className="event-image" src={partyEvent} alt="party pic" />
                         <div className="content">
                             <h2>Weekends</h2>
                             <p>First come First Serve.</p>

@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import "./CardNoneDrink.css";
 import hotTeas from "../util/hotTeas.json";
 import coffees from "../util/coffees.json";
-import beverages from "../util/beverages.json"
+import beverages from "../util/beverages.json";
+import coffeeMenu from "../images/Coffee-menu.pdf";
+import coffeeImage from "../images/coffee-image.JPG";
 
 import Li from "../Li/Li";
 
@@ -20,6 +22,12 @@ class CardNoneDrink extends Component {
                 <div className="card-header card-title"><h2><strong> Non-Alcoholic Drinks</strong></h2></div>
                 <div className="card-body">
                     <div className="row">
+                        <div className="col-sm-12">
+                        <a href={coffeeMenu} target="_blank" rel="noopener noreferrer"> <img className="menu-image" src={coffeeImage} alt="menu"/> </a>
+                        </div>
+                    </div>
+                    <div className="row">
+                    
                         <div className="col-sm-4 drink-title"><h4><strong>Hot Tea</strong></h4></div>
                         <div className="col-sm-4 drink-title"><h4><strong>Coffee</strong></h4></div>
                         <div className="col-sm-4 drink-title"><h4><strong>Beverages</strong></h4></div>

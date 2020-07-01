@@ -1,8 +1,21 @@
 .menu-card{
-    background-color: rgba(105, 56, 56, 0.445);
+    background-color: rgba(105, 56, 56, 0.445); 
+}
 
+.menu-image{
+    max-width:130px;
+    
+    
+}
 
-  
+.menu-image:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.menu-h4{
+    padding-top: 1.5rem;
 }
 
 .card-title{

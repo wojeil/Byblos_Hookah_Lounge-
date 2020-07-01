@@ -11,6 +11,8 @@ import beersThree from "../util/beersThree.json";
 import winesOne from "../util/winesOne.json";
 import winesTwo from "../util/winesTwo.json";
 import winePic from "../images/wine.jpg";
+import cocktailMenu from "../images/Cocktails-menu.pdf";
+import cocktailImage from "../images/cocktail-image.JPG";
 
 import Li from "../Li/Li";
 
@@ -35,6 +37,7 @@ class CardADrink extends Component {
             <div className="card menu-card">
                 <div className="card-header card-title"><h2><strong>Alcoholic Drinks</strong></h2></div>
                 <div className="card-body">
+                <a href={cocktailMenu} target="_blank" rel="noopener noreferrer"> <img className="menu-image" src={cocktailImage} alt="menu"/> </a>
                     <h4 className="menu-h4"><strong>Cocktails</strong></h4>
                     <hr />
                     <div className="row">
