@@ -3,12 +3,14 @@
 .carousel-item{
     padding: 5% 15%;
     
+    
 }
 
 
 /* image css */
 .event-image{
     width:100%;
+    height:33rem;
     border-radius: 3%;
     
 }
@@ -16,6 +18,8 @@
   position: relative;
   max-width: 400px; /* Maximum width */
   margin: 0 auto; /* Center it */
+  padding-bottom: 4rem;
+  
 }
 .content{
     border-radius: 4%;
@@ -29,5 +33,5 @@
 }
 
 .image-container:hover{
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
