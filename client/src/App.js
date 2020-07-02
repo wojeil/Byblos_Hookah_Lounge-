@@ -7,7 +7,7 @@ import Carousel from "./Carousel/Carousel";
 import CarouselMenu from "./CarouselMenu/CarouselMenu";
 import ContactCard from "./ContactCard/ContactCard";
 import Footer from "./Footer/Footer";
-
+import CovidWarning from "./CovidWarning/CovidWarning";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Jumbotron/>
      
       </section>
-     
+     <CovidWarning/>
       {/* events section */}
       <section id="events">
         <div className="row">

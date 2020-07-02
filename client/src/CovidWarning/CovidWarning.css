@@ -1,0 +1,7 @@
+.wrapper-warning{
+    background-color: rgba(245, 3, 3, 0.103);
+    color: rgb(255, 174, 0);
+    padding: 1rem;
+    border: solid 2px;
+    border-color:rgb(255, 174, 0); 
+}
